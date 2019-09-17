@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import RepositoryList from './RepositoryList'
+import RepositoryOwner from '../components/repositories/RepositoryOwner'
 import ApolloClient  from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
 
@@ -64,7 +64,7 @@ class Repositories extends Component {
           return (
             <ApolloProvider client={client}>
               <div className="page">
-                    <RepositoryList></RepositoryList>
+                    <RepositoryOwner></RepositoryOwner>
               </div>
             </ApolloProvider>
           )

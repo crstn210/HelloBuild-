@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Nav from '../components/Nav';
-import Home from '../components/Home';
-import Login from '../components/Login';
-import Signup from '../components/Signup';
-import Repositories from '../components/Repositories';
-import Events from '../components/Events';
+import Home from '../pages/Home';
+import Login from '../pages/Login';
+import Signup from '../pages/Signup';
+import Repositories from '../pages/Repositories';
+import Events from '../pages/Events';
 import ProtectedRoute from '../components/ProtectedRoute';
 import ErrorBoundry from '../components/ErrorBoundry';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

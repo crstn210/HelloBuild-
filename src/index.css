@@ -85,6 +85,9 @@ button{
   transition: all .4s;
   border:none;
   outline: none;
+  max-width: 500px;
+  margin: 0 auto;
+
 }
 .login, .signup, .home{
   width: 500px;
@@ -96,4 +99,46 @@ button{
 
 .home button{
   margin: 1rem;
+}
+
+.page ul{
+  max-width: 900px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+
+.countdown {
+  text-align: center;
+}
+.countdown .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #18d399;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countdown span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #182c46;
+  color: white;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.event:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
